@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(
-    page_title="Model Part Consumption & Stock Lookup",
+    page_title="HanumanElectricals",
     page_icon="🔍",
     layout="wide",
 )
