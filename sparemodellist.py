@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 st.set_page_config(
-    page_title="HanumanElectricals",
+    page_title="Model Part Consumption & Stock Lookup",
     page_icon="🔍",
     layout="wide",
 )
@@ -92,7 +92,7 @@ except Exception as e:
 # -----------------------------------------------------------------------------
 # SIDEBAR CONTROLS
 # -----------------------------------------------------------------------------
-st.title("Orient Electric — Model Part Consumption Lookup")
+st.title("HanumanElectricals")
 st.caption("Look up consumable Bill of Materials (BOM) and live stock availability by model (Fans & Appliances).")
 
 with st.sidebar:
